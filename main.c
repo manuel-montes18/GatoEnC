@@ -16,7 +16,7 @@ int main()
         board();
         player = (player % 2) ? 1 : 2;
 
-        printf("Jugador %d, escribe un numero:  ", player);
+        printf("Jugador %d, escribe un numero por favor:  ", player);
         scanf("%d", &choice);
 
         mark = (player == 1) ? 'X' : 'O';
